@@ -1,0 +1,12 @@
+/* 10. Print size of the data types using sizeof operator.*/
+
+#include<stdio.h>
+int main()
+{
+	int a;
+	char b;
+	float c;
+	printf("Size of int: %ld \n",(sizeof(a)));
+	printf("Size of char: %ld \n",(sizeof(b)));
+	printf("Size of float: %ld \n",(sizeof(c)));
+}
