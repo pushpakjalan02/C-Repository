@@ -1,0 +1,11 @@
+/*8. Print octal and hexadecimal values of an integer.*/
+
+#include <stdio.h>
+int main()
+{
+	int a;
+	printf("Enter No.\n");
+	scanf("%d",&a);
+	printf("Number in hexadecimal %X \n",a);
+	printf("Number in octal %o \n",a);
+}
