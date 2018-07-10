@@ -1,0 +1,12 @@
+/* 3. Write a program that calculates the area of a circle by taking radius as an input from keyboard */
+
+#include <stdio.h> // To include standard input and output header file
+int main() // Signature of Method main() 
+{
+  float radius; // To declare the variable radius 
+  printf("Enter Radius \n"); // To Prompt the user to input 'Radius' 
+  scanf("%f", &radius); // To read the radius input by the user in the standard input
+  float area = 3.14 * radius * radius; // To compute the area 
+  printf("Area is: %f", area); // To display the area in the Standard Output
+  return 0; 
+}
