@@ -1,0 +1,11 @@
+/* 9. Provide an input of a string and display.*/
+
+#include <stdio.h>
+int main()
+{
+	char str[20];
+	printf("Enter String \n");
+	scanf("%s",str);
+	printf("The String Entered is: \n %s \n",str);
+	return 0;
+}
