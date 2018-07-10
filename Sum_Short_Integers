@@ -1,0 +1,10 @@
+/* 1. Write a C Program that compute sum of two short integers and display the result*/
+
+#include <stdio.h> /*To include standard input output header file*/
+int main() /*Method/Function Prototype*/
+{
+  short int a=10,b=12; /*To declare and define 2 variables*/
+  short int sum = a + b; //To compute sum of a and b
+  printf("Sum is %d", sum); //To print the calculated sum
+  return 0;
+}
