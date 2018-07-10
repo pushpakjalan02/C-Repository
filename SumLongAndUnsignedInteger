@@ -1,0 +1,11 @@
+/* 2. Write a C Program that perform the addition of an unsigned integer constant and
+a long integer constant and store the result in a long integer variable*/
+
+#include <stdio.h> // To include standard input and output header
+int main() // Method main() Declaration (Defination continues) 
+{
+const unsigned int a = 50; // Defination of constant unsigned integer 
+const long int b=20; // Defination of constant long integer 
+long int sum=a+b; // Sum of the integers 
+printf("Sum is: %d",sum); // To display the sum return 0; 
+}
