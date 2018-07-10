@@ -1,0 +1,14 @@
+/* 4. Let Principal=P, Rate=R% per annum and Time=T years. The Simple Interest = (P*R*T)/100. Write a C Program that compute the 
+Simple Interest with user given input P,R,T*/
+
+#include <stdio.h> // To include standard input and output header
+int main() // Function Prototype (Defination Follows) 
+{
+  float P,R,T; // To declare the variables P,R,T to store Principal, Rate and Time
+  scanf("%f",&P); // To read the value of Principle from standard input 
+  scanf("%f",&R); // To read the value of Rate from standard input 
+  scanf("%f",&T); // To read the value of Time from standard input 
+  float SI=(P*R*T)/100; // To compute the Simple Interest 
+  printf("Simple Interest is: %f", SI); // To display the Simple Interest in the Standard Output
+  return 0; 
+}
