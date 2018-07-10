@@ -1,0 +1,16 @@
+/* 6. Perform summation, subtraction, multiplication and division with floating numbers.*/
+
+#include <stdio.h>
+int main()
+{
+	float a,b;
+	printf("Enter the Nos. \n");
+	scanf("%f",&a);
+	scanf("%f",&b);
+	printf("Addition is: %f \n",(a+b));
+	printf("Difference is: %f \n",(a-b));
+	printf("Multiplication is: %f \n",(a*b));
+	printf("Division is: %f \n",(a/b));
+	return 0;
+}
+
